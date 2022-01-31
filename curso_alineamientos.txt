@@ -1,0 +1,39 @@
+# Curso de alineamientos
+
+## Definición de alineación de secuencias
+
+El alineamiento de secuencias es el proceso de comparar y detectar similitudes entre secuencias biológicas. Las “similitudes” que se detecten dependerán de los objetivos del proceso de alineación en particular. La alineación de secuencias parece ser extremadamente útil en una serie de aplicaciones bioinformáticas.
+
+## Explicación del ejercicio de alineación de palabras
+
+Dado que los algoritmos (Needleman-Wunsch y Smith-Waterman) se desarrollaron inicialmente para el alineamiento proteína-proteína y luego se adaptaron para el alineamiento de secuencias de ADN. Sin embargo, en la mayoría de los casos de la vida real, estos algoritmos parecen poco prácticos para la alineación del ADN debido a su tiempo de ejecución y requisitos de memoria.
+
+## Cálculo en la matriz de distancia
+
+## Concepto de similaridad 
+**Similitud**: Grado de semejanza entre dos secuencias, generalmente expresado como un porcentaje de residuos similares (o idénticos) sobre una longitud determinada de la alineación. Por lo general, se puede calcular fácilmente.
+
+**identidad**: Porcentaje de identidad: el porcentaje de identidad es un número que describe cuán similar es la secuencia de consulta a la secuencia de destino (cuántos caracteres en cada secuencia son idénticos). Cuanto mayor sea el porcentaje de identidad, más significativa será la coincidencia.
+
+**Homología**: Declaración sobre la ascendencia evolutiva común de dos secuencias. Solo puede ser verdadero o falso. Rara vez podemos estar seguros de esto, por lo que suele ser una hipótesis que puede ser más o menos probable.
+
+OJO: la homología no es cuantitativa: es una cualidad que hay que inferir. Pares de secuencias homólogas que se parecen 90% o 25% son igualmente homólogas!!!
+
+BLOSUM -> Matriz de substitución de bloques: Utiliza alineamientos de regiones conservadas (bloques) en proteínas evolutivamente divergentes para el cálculo de probabilidades de cambio.
+
+Las secuencias dentro de cada bloque se agrupan por cambio de similitud (definidos previamente) y estos valores representativos de cada grupo se utilizan para el cálculo de las frecuencias de substitución dentro de un bloque.
+
+Este porcentaje utilizado de da nombre a cada una de las matrices BLOSUM. Existen familias de matrices BLOSUM. 
+
+## Alineamiento en par entre quitinasas de maiz y arroz.
+
+Para obtener los porcentajes de identidad y similitud nos apoyaremos del servidor EMBL-EBI (EMBL's European Bioinformatics Institute) el cual cuenta con Needle (EMBOSS), este crea una alineación global óptima de dos secuencias usando el algoritmo Needleman-Wunsch e implementaremos para realizar un alineamiento global con las siguientes secuencias en formato fasta.
+
+>4MCK_Zea_mays
+VVSDAFFNGIKNQAGSGCEGKNFYTRSAFLSAVNAYPGFAHGGTEVEGKREIAAFFAHVTHQTGHFCYISEINKSNAYCDASNRWPCAAGQKYYGRGPLQISWNYNYGPAGRDIGFNGLADPNRVAQDAVIAFKTALWFWMNNVHRLMPQGFGATIRAINGLECNGNNPAQMNARVGYYKQYCQQLRVDPGPNLTC
+
+>2DKV_Arroz
+MEQCGAQAGGARCPNCLCCSRWGWCGTTSDFCGDGCQSQCSGCGPTPTPTPPSPSDGVGSIVPRDLFERLLLHRNDGACPARGFYTYEAFLAAAAAFPAFGGTGNTETRKREVAAFLGQTSHETTGGWPTAPDGPFSWGYCFKQEQNPPSDYCQPSPEWPCAPGRKYYGRGPIQLSFNFNYGPAGRAIGVDLLSNPDLVATDATVSFKTALWFWMTPQGNKPSSHDVITGRWAPSPADAAAGRAPGYGVITNIVNGGLECGHGPDDRVANRIGFYQRYCGAFGIGTGGNLDCYNQRPFNSGSSVGLAEQ.
+
+Los resultados que nos muestra Needle es la longitud de las secuencias alineadas (contando gaps), el porcentaje de identidad y similitud. Al comparar las dos secuencias se ajustan con gaps para identificar identidades y regiones semiconservativas y conservativas.
+

@@ -1,0 +1,20 @@
+CLUSTAL O(1.2.2) multiple sequence alignment
+
+
+4MCK_Zea_mays      -------------------------------------------------------------VVSDAFFNGIKNQAGSGCEGKNFYTRSAFLSAVNAYPGF	39
+2DKV_Arroz         MEQCGAQAGGARCPNCLCCSRWGWCGTTSDFCGDGCQSQCSGCGPTPTPTPPSPSDGVGSIVPRDLFERLLLHRNDGACPARGFYTYEAFLAAAAAFPAF	100
+                                                                                *  * * . : .:  ..* .: *** .***:*. *:*.*
+
+4MCK_Zea_mays      AHGGTEVEGKREIAAFFAHVTHQTG-------------HFCYISEINKSNAYCDASNRWPCAAGQKYYGRGPLQISWNYNYGPAGRDIGFNGLADPNRVA	126
+2DKV_Arroz         GGTGNTETRKREVAAFLGQTSHETTGGWPTAPDGPFSWGYCFKQEQNPPSDYCQPSPEWPCAPGRKYYGRGPIQLSFNFNYGPAGRAIGVDLLSNPDLVA	200
+                   .  *.    ***:***:.:.:*:*               :*: .* *  . **: * .**** *:*******:*:*:*:******* **.: *::*: **
+
+4MCK_Zea_mays      QDAVIAFKTALWFWMNNVHRLM---------------------PQGFGATIR-AINGLECNGNNPAQMNARVGYYKQYCQQLRVDPGPNLTC--------	196
+2DKV_Arroz         TDATVSFKTALWFWMTPQGNKPSSHDVITGRWAPSPADAAAGRAPGYGVITNIVNGGLECGHGPDDRVANRIGFYQRYCGAFGIGTGGNLDCYNQRPFNS	300
+                    **.::*********.   .                         *:*.  . .  ****      ::  *:*:*::**  : :  * ** *        
+
+4MCK_Zea_mays      ---------	196
+2DKV_Arroz         GSSVGLAEQ	309
+
+657 score
+                            

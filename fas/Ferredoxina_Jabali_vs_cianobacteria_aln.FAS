@@ -1,0 +1,26 @@
+CLUSTAL O(1.2.2) multiple sequence alignment
+
+
+1CJC_Jabali             STQEQTPQICVVGSGPAGFYTAQHLLKHHSRAHVDIYEKQLVPFGLVRFGVAPDHPEVKNV----IN------------------------TFTQTARSD	72
+1EWY_Cianobacteria      ----------------------TQAKAKHADVPVNLYRPNAPFIGKV----ISNEPLVKEGGIGIVQHIKFDLTGGNLKYIEGQSIGIIPPGVDKNGKPE	74
+                                               :   :*: . *::*. :   :* *      :.* **:     ::                         . :..: :
+
+1CJC_Jabali             RCAFYGNV--EVGRDVTVQELQDAYHAVVLSYGAEDHQALDIPGEELPGVFSARAFVGWY--------NGLPENRELAPDLSCDTAVILGQGNVALDVAR	162
+1EWY_Cianobacteria      KLRLYSIASTRHGDDVDDKTIS--LCVRQLEYKH------PESGETVYGVCST--YLTHIEPGSEVKITGPVGKEMLLPDDPEANVIMLATGTGIA----	160
+                        :  :*. .  . * **  : :.    .  *.*           ** : ** *:  ::           .*   :. * **    ..::*. *.       
+
+1CJC_Jabali             ILLTPPDHLEKTDITEAALGALRQSRVKTVWIVGRRGP--LQVAFTIKELRE-MIQLPGTRPMLDPADFLGLQDRIKEAARPRKRLMELLLRTATEKPGV	259
+1EWY_Cianobacteria      ------------------------PMRTYLWRMFKDAERAANPEYQFKGFSWLVFGVPTTPNILYKEELEEIQQKYPDNF----RLTYAISREQKNPQGG	232
+                                                   . :* : : .    :  : :* :   :: :* *  :*   ::  :*::  :      **   : *  .:  * 
+
+1CJC_Jabali             E---EAARRASASRAWGLRFFRSPQQVLPSPDGRRAAGIRLAVTRLEGIGEATRAVPTGDVEDLPCGLVLSSIGYKSRPIDPSVPFDPKLGVVPNMEGRV	356
+1EWY_Cianobacteria      RMYIQDRVAEHADELWQLIK-------------------------------------NQKTHTYICGLRGMEEGIDAA-----------L----------	274
+                        .   :      *.. * *                                       . ...   ***   . * .:            *          
+
+1CJC_Jabali             VDVPGLYCSGWVKRGPTGVITTTMTDSFLTGQILLQDLKAGHLPSGPRPGSAF--IKALLDSRGVWPVSFSDWEKLDAEEVSRGQASGKPREKLLDPQEM	454
+1EWY_Cianobacteria      ------------------------------------------SAAAAKEGVTWSDYQKDLKKAGRWHVETY-----------------------------	303
+                                                                    :. : * ::   :  *.. * * *.                               
+
+1CJC_Jabali             LRLLGH	460
+1EWY_Cianobacteria      ------	303
+                              
