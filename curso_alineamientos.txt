@@ -37,3 +37,7 @@ MEQCGAQAGGARCPNCLCCSRWGWCGTTSDFCGDGCQSQCSGCGPTPTPTPPSPSDGVGSIVPRDLFERLLLHRNDGACP
 
 Los resultados que nos muestra Needle es la longitud de las secuencias alineadas (contando gaps), el porcentaje de identidad y similitud. Al comparar las dos secuencias se ajustan con gaps para identificar identidades y regiones semiconservativas y conservativas.
 
+## Alineamiento global
+Una alineación global se define como la alineación de extremo a extremo de dos cadenas
+## Alineamiento local
+La alineación local es util para encontrar regiones de alta similitud local. A menudo, estamos más interesados ​​en encontrar locales alineaciones porque normalmente no conocemos los límites de los genes y solo se puede conservar un pequeño dominio del gen. En tales casos, no queremos imponer que otras partes (potencialmente no homólogas) de la secuencia también se alineen. La alineación local también es útil cuando se busca un gen pequeño en un cromosoma grande o para detectar cuándo se puede haber reorganizado una secuencia larga.
