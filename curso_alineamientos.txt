@@ -1,3 +1,5 @@
+comentario en la rama master que generará un conflicto al momento de unirse con la rama login
+
 
 >>>>>Hola, esta modificación la realicé directamente desde el repositorio en línea
 
