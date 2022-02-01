@@ -2,6 +2,7 @@ comentario en la rama master que generará un conflicto al momento de unirse con
 
 
 >>>>>Hola, esta modificación la realicé directamente desde el repositorio en línea
+comentario escrito en la línea #1 rama login | 
 
 # Curso de alineamientos
 
