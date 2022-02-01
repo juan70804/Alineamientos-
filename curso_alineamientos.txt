@@ -1,3 +1,6 @@
+
+>>>>>Hola, esta modificación la realicé directamente desde el repositorio en línea
+
 # Curso de alineamientos
 
 ## Definición de alineación de secuencias
